@@ -1,7 +1,7 @@
 
 <script>
 import Apptitle from "./components/Apptitle.vue";
-
+import Apphero from "./components/Apphero.vue"
 export default {
   data(){
     return{
@@ -9,6 +9,7 @@ export default {
   },
   components:{
     Apptitle,
+    Apphero
   }
 }
 </script>
@@ -17,6 +18,7 @@ export default {
 
   <Apptitle />
 
+  <Apphero />
 
 </template>
 
