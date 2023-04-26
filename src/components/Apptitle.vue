@@ -3,18 +3,23 @@
 export default {
   data(){
     return{
-      name:'La mia prima App con Vite'
+      title:'La mia prima App con Vite!',
     }
   }
 }
 </script>
 
 <template>
-  <h1>{{ name }}</h1>
+  <h1>{{ title }}</h1>
 </template>
 
 <style>
+  body{
+    background-color:bisque;
+  }
+
   h1{
-    width: 100%;
+    text-align: center;
+    color: brown;
   }
 </style>
