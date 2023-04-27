@@ -10,7 +10,9 @@ export default {
 </script>
 
 <template>
-  <div class="jumbotron"></div>
+  <div class="jumbotron">
+    <img src="../assets/jumbo.png">
+  </div>
 </template>
 
 <style>
@@ -19,5 +21,11 @@ export default {
   width: 100%;
   height: 500px;
   margin: 50px 0;
+}
+
+img{
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
 }
 </style>

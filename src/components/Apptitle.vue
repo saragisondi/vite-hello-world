@@ -20,6 +20,6 @@ export default {
 
   h1{
     text-align: center;
-    color: brown;
+    color:#C5599A;
   }
 </style>
